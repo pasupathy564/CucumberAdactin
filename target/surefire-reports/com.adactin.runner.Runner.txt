@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.adactin.runner.Runner
+-------------------------------------------------------------------------------
+Tests run: 46, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 42.091 s <<< FAILURE! - in com.adactin.runner.Runner
+Then User checks whether page navigated to itenary(Scenario: User checks hotel booking functions)  Time elapsed: 0.01 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[]> but was:<[  ]>
+
+Scenario: User checks hotel booking functions  Time elapsed: 0.01 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[]> but was:<[  ]>
+

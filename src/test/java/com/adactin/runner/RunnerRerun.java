@@ -15,10 +15,10 @@ import cucumber.api.junit.Cucumber;
 
 
 	@RunWith(Cucumber.class)
-	@CucumberOptions(features="@Report/return.txt",
+	@CucumberOptions(features="@Report/Failedcase.txt",
 	glue="com\\adactin\\stepdefinition",
 	monochrome=true,
-	plugin={"pretty","html:Report","com.cucumber.listener.ExtentCucumberFormatter:Report\\extentReport.html"},
+	plugin={"pretty","html:Report","com.cucumber.listener.ExtentCucumberFormatter:Report/rerunReport.html"},
 	dryRun=false,
 	strict=true)
 	public class RunnerRerun {
@@ -37,7 +37,7 @@ import cucumber.api.junit.Cucumber;
 		public static void tearDown() {
 			System.out.println("AfterClass running");
 			BaseClass.sleep(7000);
-			BaseClass.quit();
+			//BaseClass.close();
 		} 
 
 }

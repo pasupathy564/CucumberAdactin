@@ -14,12 +14,16 @@ import com.adactin.properties.FileManager;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
+/**
+ * @author pasupac
+ *
+ */
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Users\\pasupac\\eclipse-workspace\\CucumberAdactin\\src\\test\\java\\com\\adactin\\feature\\adactin.feature",
+@CucumberOptions(features="src\\test\\java\\com\\adactin\\feature\\adactin.feature",
 glue="com\\adactin\\stepdefinition",
 monochrome=true,
-plugin={"pretty","html:Report","com.cucumber.listener.ExtentCucumberFormatter:Report\\extentReport.html",
-		"rerun:Report/rerun.txt"},
+plugin={"pretty","html:Report","com.cucumber.listener.ExtentCucumberFormatter:Report/extentReport.html",
+		"rerun:Report/Failedcase.txt"},
 dryRun=false,
 strict=true)
 public class Runner {
@@ -38,7 +42,7 @@ public class Runner {
 	public static void tearDown() {
 		System.out.println("AfterClass running");
 		BaseClass.sleep(7000);
-		BaseClass.quit();
+		BaseClass.close();
 	} 
 	
 	

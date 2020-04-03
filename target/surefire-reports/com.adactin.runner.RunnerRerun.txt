@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.adactin.runner.RunnerRerun
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 2, Skipped: 5, Time elapsed: 21.746 s <<< FAILURE! - in com.adactin.runner.RunnerRerun
+When User enters valid First name "Pasupac"(Scenario: User checks hotel booking functions)  Time elapsed: 0.001 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAA-5CG7141LPZ', ip: '192.168.43.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\pasupac\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3dab4ba79ccf03d40af713543d2e4868
+*** Element info: {Using=xpath, value=//*[@id="first_name"]}
+
+Scenario: User checks hotel booking functions  Time elapsed: 0.001 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAA-5CG7141LPZ', ip: '192.168.43.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\pasupac\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3dab4ba79ccf03d40af713543d2e4868
+*** Element info: {Using=xpath, value=//*[@id="first_name"]}
+

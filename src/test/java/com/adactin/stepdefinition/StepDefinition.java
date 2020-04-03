@@ -15,6 +15,7 @@ import com.adactin.properties.FileManager;
 import com.adactin.runner.Runner;
 
 import cucumber.api.java.en.*;
+import junit.framework.Assert;
 
 public class StepDefinition extends BaseClass {
 
@@ -178,6 +179,9 @@ public class StepDefinition extends BaseClass {
 
 	@Then("^User checks whether page navigated to itenary$")
 	public void user_checks_whether_page_navigated_to_itenary() throws Throwable {
+		
+		Assert.assertEquals("", "  ");
+		
 	}
 
 }
