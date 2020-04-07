@@ -54,7 +54,7 @@ public class StepDefinition extends BaseClass {
 
 	@When("^User clicks on login button$")
 	public void user_clicks_on_login_button() throws Throwable {
-	
+
 		clicking(pom.getLogin().getLoginBtn());
 
 	}
@@ -70,10 +70,9 @@ public class StepDefinition extends BaseClass {
 
 	@When("^User selects location \"([^\"]*)\"$")
 	public void user_selects_location(String arg1) throws Throwable {
-		
-			dropDowns(pom.getSearchHotel().getLocation(), "byvalue", arg1);
 
-		
+		dropDowns(pom.getSearchHotel().getLocation(), "byvalue", arg1);
+
 	}
 
 	@When("^User selects hotel \"([^\"]*)\"$")
@@ -179,9 +178,30 @@ public class StepDefinition extends BaseClass {
 
 	@Then("^User checks whether page navigated to itenary$")
 	public void user_checks_whether_page_navigated_to_itenary() throws Throwable {
+
+	}
+
+	@Given("^User opens facebook website$")
+	public void user_opens_facebook_website() throws Throwable {
+
+	}
+
+	@When("^User enters valid username and password$")
+	public void user_enters_valid_username_and_password() throws Throwable {
 		
-		Assert.assertEquals("", "  ");
-		
+	      driver=BaseClass.browserLaunch("chrome");
+
+		  driver.navigate().to("https://www.facebook.com/");
+		  driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("cyclops");;
+		  driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("xmen");
+		  driver.findElement(By.xpath("//*[@id=\"u_0_b\"]")).click();
+		  driver.findElement(By.xpath("//*[@id=\"u_0_c\"]/a")).click();
+		 
+	}
+
+	@Then("^User checks whether user logged in$")
+	public void user_checks_whether_user_logged_in() throws Throwable {
+
 	}
 
 }

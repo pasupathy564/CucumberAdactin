@@ -37,7 +37,7 @@ import cucumber.api.junit.Cucumber;
 		public static void tearDown() {
 			System.out.println("AfterClass running");
 			BaseClass.sleep(7000);
-			//BaseClass.close();
+			BaseClass.quit();
 		} 
 
 }

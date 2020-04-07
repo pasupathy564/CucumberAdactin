@@ -1,10 +1,11 @@
+@login
 Feature: Testing Hotel booking functionality on adactin application 
 
 Background:
 Given User launches browser
 And Use logins into the application
 
-@login
+
 Scenario Outline: User checking login function using valid username and password
 Given User launch the application
 When User enters valid username "<username>" 
@@ -46,3 +47,10 @@ And User enters valid billing address "no1 street"
 And User enters valid credit card details "1234567891234567" "1" "january" "2022" "222"	
 And User clicks on Book now button
 Then User checks whether page navigated to itenary
+
+Scenario: User logins facebook home page
+Given User opens facebook website
+When User enters valid username and password
+Then User checks whether user logged in 
+
+

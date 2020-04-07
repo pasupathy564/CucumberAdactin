@@ -22,6 +22,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features="src\\test\\java\\com\\adactin\\feature\\adactin.feature",
 glue="com\\adactin\\stepdefinition",
 monochrome=true,
+tags="@login",
 plugin={"pretty","html:Report","com.cucumber.listener.ExtentCucumberFormatter:Report/extentReport.html",
 		"rerun:Report/Failedcase.txt"},
 dryRun=false,
@@ -42,7 +43,7 @@ public class Runner {
 	public static void tearDown() {
 		System.out.println("AfterClass running");
 		BaseClass.sleep(7000);
-		BaseClass.close();
+		BaseClass.quit();
 	} 
 	
 	
