@@ -13,6 +13,7 @@ import com.adactin.pom.AdactinLogin;
 import com.adactin.properties.ConfigurationHelper;
 import com.adactin.properties.FileManager;
 import com.adactin.runner.Runner;
+import com.adactin.runner.RunnerRerun;
 
 import cucumber.api.java.en.*;
 import junit.framework.Assert;
@@ -178,30 +179,9 @@ public class StepDefinition extends BaseClass {
 
 	@Then("^User checks whether page navigated to itenary$")
 	public void user_checks_whether_page_navigated_to_itenary() throws Throwable {
-
+		Assert.assertEquals("", " ");
 	}
 
-	@Given("^User opens facebook website$")
-	public void user_opens_facebook_website() throws Throwable {
-
-	}
-
-	@When("^User enters valid username and password$")
-	public void user_enters_valid_username_and_password() throws Throwable {
-		
-	      driver=BaseClass.browserLaunch("chrome");
-
-		  driver.navigate().to("https://www.facebook.com/");
-		  driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("cyclops");;
-		  driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("xmen");
-		  driver.findElement(By.xpath("//*[@id=\"u_0_b\"]")).click();
-		  driver.findElement(By.xpath("//*[@id=\"u_0_c\"]/a")).click();
-		 
-	}
-
-	@Then("^User checks whether user logged in$")
-	public void user_checks_whether_user_logged_in() throws Throwable {
-
-	}
+	
 
 }
