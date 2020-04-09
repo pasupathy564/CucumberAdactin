@@ -1,0 +1,423 @@
+# Created at 2020-04-09T16:21:58.113
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-04-09T16:22:05.851
+Unexpected IOException with stream: Close problem
+
+
+# Created at 2020-04-09T16:22:07.285
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.287
+Unexpected IOException with stream: Failed scenarios:
+
+
+# Created at 2020-04-09T16:22:07.289
+Unexpected IOException with stream: src/test/java/com/adactin/feature/adactin.feature:21 
+
+# Created at 2020-04-09T16:22:07.293
+Unexpected IOException with stream: # Scenario: User checking hotel selection functionality
+
+
+# Created at 2020-04-09T16:22:07.295
+Unexpected IOException with stream: src/test/java/com/adactin/feature/adactin.feature:41 
+
+# Created at 2020-04-09T16:22:07.297
+Unexpected IOException with stream: # Scenario: User checks hotel booking functions
+
+
+# Created at 2020-04-09T16:22:07.300
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.321
+Unexpected IOException with stream: 5
+
+# Created at 2020-04-09T16:22:07.326
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-04-09T16:22:07.328
+Unexpected IOException with stream: 2 failed
+
+# Created at 2020-04-09T16:22:07.329
+Unexpected IOException with stream: , 
+
+# Created at 2020-04-09T16:22:07.332
+Unexpected IOException with stream: 3 passed
+
+# Created at 2020-04-09T16:22:07.333
+Unexpected IOException with stream: )
+
+
+# Created at 2020-04-09T16:22:07.337
+Unexpected IOException with stream: 41
+
+# Created at 2020-04-09T16:22:07.339
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-04-09T16:22:07.340
+Unexpected IOException with stream: 2 failed
+
+# Created at 2020-04-09T16:22:07.341
+Unexpected IOException with stream: , 
+
+# Created at 2020-04-09T16:22:07.343
+Unexpected IOException with stream: 11 skipped
+
+# Created at 2020-04-09T16:22:07.345
+Unexpected IOException with stream: , 
+
+# Created at 2020-04-09T16:22:07.348
+Unexpected IOException with stream: 28 passed
+
+# Created at 2020-04-09T16:22:07.360
+Unexpected IOException with stream: )
+
+
+# Created at 2020-04-09T16:22:07.361
+Unexpected IOException with stream: 0m
+
+# Created at 2020-04-09T16:22:07.369
+Unexpected IOException with stream: 10.540s
+
+
+# Created at 2020-04-09T16:22:07.370
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.375
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAA-5CG7141LPZ', ip: '10.95.54.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\pasupac\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae78f5d7408d2bc8ac288dd8a1b4a96c
+*** Element info: {Using=xpath, value=//*[@id="location"]//following::select[3]}
+
+# Created at 2020-04-09T16:22:07.385
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.387
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-04-09T16:22:07.399
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.401
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-04-09T16:22:07.403
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.405
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-04-09T16:22:07.407
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.408
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-04-09T16:22:07.410
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.411
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-04-09T16:22:07.412
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.413
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-04-09T16:22:07.415
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.417
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-04-09T16:22:07.418
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.420
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-04-09T16:22:07.421
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.422
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-04-09T16:22:07.424
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.425
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-04-09T16:22:07.427
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.428
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2020-04-09T16:22:07.429
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.431
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2020-04-09T16:22:07.433
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.434
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2020-04-09T16:22:07.439
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.440
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2020-04-09T16:22:07.441
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.443
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+
+# Created at 2020-04-09T16:22:07.443
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.446
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+
+# Created at 2020-04-09T16:22:07.450
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.451
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy19.getTagName(Unknown Source)
+
+# Created at 2020-04-09T16:22:07.453
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.454
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.Select.<init>(Select.java:45)
+
+# Created at 2020-04-09T16:22:07.456
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.460
+Unexpected IOException with stream: 	at com.adactin.baseclass.BaseClass.dropDowns(BaseClass.java:129)
+
+# Created at 2020-04-09T16:22:07.462
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.463
+Unexpected IOException with stream: 	at com.adactin.stepdefinition.StepDefinition.user_selects_number_of_rooms(StepDefinition.java:93)
+
+# Created at 2020-04-09T16:22:07.466
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.467
+Unexpected IOException with stream: 	at ?.And User selects number of rooms "1 - One"(src/test/java/com/adactin/feature/adactin.feature:26)
+
+# Created at 2020-04-09T16:22:07.469
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.470
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.472
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAA-5CG7141LPZ', ip: '10.95.54.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\pasupac\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae78f5d7408d2bc8ac288dd8a1b4a96c
+*** Element info: {Using=xpath, value=//*[@id="first_name"]}
+
+# Created at 2020-04-09T16:22:07.473
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.475
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-04-09T16:22:07.477
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.487
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-04-09T16:22:07.489
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.490
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-04-09T16:22:07.492
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.493
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-04-09T16:22:07.494
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.496
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-04-09T16:22:07.498
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.500
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-04-09T16:22:07.501
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.503
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-04-09T16:22:07.504
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.505
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-04-09T16:22:07.507
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.509
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-04-09T16:22:07.510
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.512
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-04-09T16:22:07.513
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.517
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2020-04-09T16:22:07.519
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.520
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2020-04-09T16:22:07.521
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.525
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2020-04-09T16:22:07.527
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.528
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2020-04-09T16:22:07.530
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.532
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+
+# Created at 2020-04-09T16:22:07.533
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.535
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+
+# Created at 2020-04-09T16:22:07.536
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.538
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy19.sendKeys(Unknown Source)
+
+# Created at 2020-04-09T16:22:07.541
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.545
+Unexpected IOException with stream: 	at com.adactin.baseclass.BaseClass.sendingKey(BaseClass.java:351)
+
+# Created at 2020-04-09T16:22:07.549
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.549
+Unexpected IOException with stream: 	at com.adactin.stepdefinition.StepDefinition.user_enters_valid_First_name(StepDefinition.java:147)
+
+# Created at 2020-04-09T16:22:07.551
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.553
+Unexpected IOException with stream: 	at ?.When User enters valid First name "Pasupac"(src/test/java/com/adactin/feature/adactin.feature:43)
+
+# Created at 2020-04-09T16:22:07.553
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.554
+Unexpected IOException with stream: 
+
+
+# Created at 2020-04-09T16:22:07.557
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.adactin.runner.Runner,null,null,null
+
+
