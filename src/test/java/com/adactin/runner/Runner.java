@@ -23,7 +23,8 @@ import cucumber.api.junit.Cucumber;
 glue="com\\adactin\\stepdefinition",
 monochrome=true,
 plugin={"pretty","html:Report","com.cucumber.listener.ExtentCucumberFormatter:Report/extentReport.html",
-		"rerun:Report/Failedcase.txt"
+		"rerun:Report/Failedcase.txt",
+		"json:target/cucumber-reports/CucumberTestReport.json"
 		},
 dryRun=false,
 strict=true)
